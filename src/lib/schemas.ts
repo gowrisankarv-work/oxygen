@@ -15,7 +15,7 @@ export const emailField = z
   .min(1, 'Please enter your email address.')
   .email('Please enter a valid email address, e.g. name@example.com.');
 export const consentField = z.literal(true, {
-  errorMap: () => ({ message: 'Please agree to the Privacy Policy so we can respond to you.' }),
+  error: 'Please agree to the Privacy Policy so we can respond to you.',
 });
 
 /** Validates a phone number for a given country code. Indian mobiles: 10 digits starting 6–9. */
@@ -137,30 +137,27 @@ export const consultationSchema = z
     // Step 1 — About you
     fullName: nameField,
     email: emailField,
-    countryCode: z.enum(enumValues(countryCodes), { errorMap: () => ({ message: 'Please choose a country code.' }) }),
+    countryCode: z.enum(enumValues(countryCodes), {error: 'Please choose a country code.',}),
+
     phone: z.string().trim().min(1, 'Please enter your phone number.'),
     city: trimmed(2, 'Please enter your city.').max(60, 'Please keep the city under 60 characters.'),
-    role: z.enum(enumValues(roleOptions), { errorMap: () => ({ message: 'Please tell us who you are.' }) }),
+    role: z.enum(enumValues(roleOptions), {error: 'Please tell us who you are.',}),
     // Step 2 — Your need
     services: z
       .array(
         z.enum(['admission-expert', 'career-guidance', 'research-innovations', 'publication-services', 'not-sure']),
       )
       .min(1, 'Please choose at least one service (or “Not sure”).'),
-    educationLevel: z.enum(enumValues(educationOptions), {
-      errorMap: () => ({ message: 'Please choose your current education level.' }),
-    }),
+    educationLevel: z.enum(enumValues(educationOptions), {error: 'Please choose your current education level.',}),
     target: z.string().trim().max(200, 'Please keep this under 200 characters.').optional(),
-    timeline: z.enum(enumValues(timelineOptions), { errorMap: () => ({ message: 'Please choose a timeline.' }) }),
+    timeline: z.enum(enumValues(timelineOptions), {error: 'Please choose a timeline.',}),
     // Step 3 — Preferences
-    contactMethod: z.enum(enumValues(contactMethodOptions), {
-      errorMap: () => ({ message: 'Please choose how we should contact you.' }),
-    }),
+    contactMethod: z.enum(enumValues(contactMethodOptions), {error: 'Please choose how we should contact you.',}),
     preferredDate: z
       .string()
       .optional()
       .refine((v) => !v || !Number.isNaN(Date.parse(v)), 'Please choose a valid date.'),
-    timeSlot: z.enum(enumValues(timeSlotOptions), { errorMap: () => ({ message: 'Please choose a time slot.' }) }),
+    timeSlot: z.enum(enumValues(timeSlotOptions), {error: 'Please choose a time slot.',}),
     message: z.string().trim().max(1500, 'Please keep your message under 1,500 characters.').optional(),
     source: z.string().optional(),
     consent: consentField,
