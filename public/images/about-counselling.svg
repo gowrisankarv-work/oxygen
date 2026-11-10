@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 420" width="560" height="420" role="img" aria-labelledby="t">
+  <title id="t">A counsellor talking with a student and parent</title>
+  <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#EEE7FF"/><stop offset="1" stop-color="#FCEAF4"/></linearGradient></defs>
+  <rect width="560" height="420" fill="url(#g)"/>
+  <circle cx="460" cy="90" r="70" fill="#fff" opacity=".6"/>
+  <rect x="40" y="56" width="150" height="110" rx="14" fill="#fff" opacity=".85"/>
+  <rect x="60" y="80" width="80" height="10" rx="5" fill="#8B5CF6"/><rect x="60" y="102" width="110" height="8" rx="4" fill="#EFEDF7"/><rect x="60" y="120" width="96" height="8" rx="4" fill="#EFEDF7"/><rect x="60" y="138" width="60" height="8" rx="4" fill="#F4B915"/>
+  <!-- table -->
+  <ellipse cx="280" cy="360" rx="230" ry="40" fill="#C9B8F5" opacity=".6"/>
+  <rect x="140" y="300" width="280" height="22" rx="11" fill="#52017F"/>
+  <!-- counsellor -->
+  <path d="M60 420c0-80 26-130 74-130s74 50 74 130z" fill="#13245A"/>
+  <circle cx="134" cy="246" r="42" fill="#A8775A"/>
+  <path d="M92 244c0-38 20-58 44-58 28 0 46 22 42 56-8-18-24-28-46-26-18 2-32 10-40 28z" fill="#1E1631"/>
+  <circle cx="122" cy="250" r="4" fill="#2A0A52"/><circle cx="148" cy="250" r="4" fill="#2A0A52"/>
+  <path d="M126 268q8 6 16 0" stroke="#5B3524" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <!-- parent -->
+  <path d="M340 420c0-84 26-134 76-134s76 50 76 134z" fill="#D61F8C"/>
+  <circle cx="416" cy="240" r="42" fill="#8F5E43"/>
+  <path d="M370 250c-6-46 18-74 48-74 30 0 52 24 48 64-4 26-6 50 0 76-30-10-30-40-26-64-6-20-22-30-38-28-12 2-24 10-32 26z" fill="#1A1222"/>
+  <circle cx="404" cy="246" r="4" fill="#2A0A52"/><circle cx="430" cy="246" r="4" fill="#2A0A52"/>
+  <path d="M408 264q8 6 16 0" stroke="#4A2A1C" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <!-- student -->
+  <path d="M220 420c0-70 22-112 62-112s62 42 62 112z" fill="#8B5CF6"/>
+  <circle cx="282" cy="276" r="34" fill="#7A4E36"/>
+  <path d="M248 276c-2-32 16-50 36-50 22 0 38 18 34 46-8-14-22-20-38-20-14 0-24 8-32 24z" fill="#120E20"/>
+  <circle cx="272" cy="280" r="3.5" fill="#2A0A52"/><circle cx="292" cy="280" r="3.5" fill="#2A0A52"/>
+  <!-- speech bubbles -->
+  <g transform="translate(176 150)"><rect width="96" height="56" rx="16" fill="#fff"/><path d="M20 56l-6 18 22-18z" fill="#fff"/><rect x="16" y="16" width="60" height="8" rx="4" fill="#8B5CF6"/><rect x="16" y="32" width="44" height="8" rx="4" fill="#EFEDF7"/></g>
+  <g transform="translate(300 128)"><rect width="84" height="50" rx="16" fill="#13245A"/><path d="M58 50l8 16 6-16z" fill="#13245A"/><path d="M26 25l9 9 18-18" stroke="#F4B915" stroke-width="6" fill="none" stroke-linecap="round" stroke-linejoin="round"/></g>
+</svg>

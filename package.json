@@ -1,0 +1,40 @@
+{
+  "name": "oxygen-edu-hub",
+  "version": "1.1.0",
+  "private": true,
+  "description": "Corporate website for OXYGEN EDU-HUB — admissions, career guidance, research and publication support.",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "dev": "node scripts/run.mjs dev",
+    "build": "node scripts/run.mjs build",
+    "preview": "node scripts/run.mjs preview",
+    "typecheck": "tsc --noEmit -p tsconfig.json && tsc --noEmit -p tsconfig.node.json",
+    "lint": "node scripts/run.mjs lint",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "test": "node scripts/run.mjs test",
+    "test:e2e": "playwright test",
+    "check:placeholders": "node scripts/run.mjs check-placeholders",
+    "og": "node scripts/run.mjs generate-og",
+    "analyze": "node scripts/run.mjs build --analyze",
+    "verify": "npm run typecheck && npm run lint && npm run format:check && npm run test && npm run build && npm run test:e2e"
+  },
+  "dependencies": {
+    "clsx": "2.1.1",
+    "react": "19.2.8",
+    "react-dom": "19.2.8",
+    "tailwind-merge": "3.6.0",
+    "zod": "3.25.76"
+  },
+  "devDependencies": {
+    "esbuild": "0.28.2",
+    "eslint": "10.1.0",
+    "playwright": "1.63.0",
+    "prettier": "3.8.1",
+    "tailwindcss": "4.3.3",
+    "typescript": "6.0.3"
+  }
+}

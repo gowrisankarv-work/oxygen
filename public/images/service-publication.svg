@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 420" width="560" height="420" role="img" aria-labelledby="t">
+  <title id="t">An edited manuscript with tracked changes and a journal</title>
+  <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#2A0A52"/><stop offset="1" stop-color="#52017F"/></linearGradient></defs>
+  <rect width="560" height="420" fill="url(#g)"/>
+  <g opacity=".1" stroke="#fff" stroke-width="2"><path d="M0 80l80-80M0 200L200 0M0 320L320 0M80 420L500 0M200 420L560 60M320 420l240-240"/></g>
+  <!-- journal -->
+  <g transform="translate(330 70)"><rect width="170" height="230" rx="12" fill="#13245A"/><rect x="14" width="156" height="230" rx="12" fill="#2F5BD3"/>
+    <rect x="34" y="34" width="110" height="12" rx="6" fill="#fff"/><rect x="34" y="56" width="80" height="8" rx="4" fill="#C9D7FA"/>
+    <rect x="34" y="150" width="116" height="50" rx="10" fill="#fff" opacity=".2"/><circle cx="60" cy="175" r="12" fill="#F4B915"/></g>
+  <!-- manuscript -->
+  <g transform="translate(60 50)"><rect width="250" height="320" rx="18" fill="#fff"/>
+    <rect x="28" y="30" width="150" height="14" rx="7" fill="#2A0A52"/>
+    <g fill="#EFEDF7"><rect x="28" y="70" width="194" height="9" rx="4.5"/><rect x="28" y="92" width="170" height="9" rx="4.5"/><rect x="28" y="160" width="194" height="9" rx="4.5"/><rect x="28" y="182" width="150" height="9" rx="4.5"/><rect x="28" y="250" width="194" height="9" rx="4.5"/><rect x="28" y="272" width="120" height="9" rx="4.5"/></g>
+    <rect x="28" y="114" width="120" height="9" rx="4.5" fill="#DC3940" opacity=".35"/><path d="M28 118.5h120" stroke="#DC3940" stroke-width="3"/>
+    <rect x="28" y="134" width="150" height="9" rx="4.5" fill="#7FD1A6"/>
+    <rect x="28" y="204" width="194" height="26" rx="8" fill="#F4B915" opacity=".3"/><rect x="38" y="213" width="120" height="8" rx="4" fill="#F4B915"/>
+  </g>
+  <!-- comment bubble -->
+  <g transform="translate(250 230)"><rect width="120" height="64" rx="16" fill="#D61F8C"/><path d="M20 64l-4 18 20-18z" fill="#D61F8C"/><rect x="16" y="18" width="80" height="8" rx="4" fill="#fff"/><rect x="16" y="36" width="56" height="8" rx="4" fill="#fff" opacity=".7"/></g>
+  <!-- shield -->
+  <g transform="translate(470 330)"><path d="M0-34l26 10v18c0 17-11 30-26 36-15-6-26-19-26-36v-18z" fill="#DC3940"/><path d="M-10 0l7 7 14-15" fill="none" stroke="#fff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/></g>
+</svg>

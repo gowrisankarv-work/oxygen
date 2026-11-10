@@ -1,0 +1,7 @@
+# Netlify / Cloudflare Pages redirects. Trailing-slash URLs are canonical (e.g. /about/).
+# Static hosts serve /about → /about/ automatically for folder-based pages.
+/index.html   /   301
+/home         /   301
+/home/        /   301
+/book         /book-consultation/   301
+/consultation /book-consultation/   301

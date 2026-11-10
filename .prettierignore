@@ -1,0 +1,9 @@
+node_modules
+dist
+dist-e2e
+dist-stats
+.cache
+test-results
+playwright-report
+public
+package-lock.json

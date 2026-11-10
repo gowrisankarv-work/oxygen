@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 420" width="560" height="420" role="img" aria-labelledby="t">
+  <title id="t">Research charts, a flask and an open notebook</title>
+  <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#F3EEFF"/><stop offset="1" stop-color="#FCE8F3"/></linearGradient></defs>
+  <rect width="560" height="420" fill="url(#g)"/>
+  <!-- notebook -->
+  <g transform="translate(50 210)"><path d="M0 20l130 20 130-20v170l-130 20L0 190z" fill="#fff" stroke="#E2D8FA" stroke-width="3"/><path d="M130 40v170" stroke="#C9B8F5" stroke-width="4"/>
+    <g stroke="#C9B8F5" stroke-width="5" stroke-linecap="round"><path d="M22 70l86 12M22 100l86 12M22 130l66 9"/><path d="M152 82l86-12M152 112l86-12M152 142l60-8"/></g></g>
+  <!-- chart card -->
+  <g transform="translate(250 50)"><rect width="250" height="170" rx="20" fill="#fff" stroke="#EFEDF7" stroke-width="3"/>
+    <path d="M30 140h190" stroke="#EFEDF7" stroke-width="4"/>
+    <g fill="#8B5CF6"><rect x="40" y="96" width="24" height="44" rx="5"/><rect x="76" y="70" width="24" height="70" rx="5"/></g>
+    <rect x="112" y="50" width="24" height="90" rx="5" fill="#52017F"/><rect x="148" y="80" width="24" height="60" rx="5" fill="#D61F8C"/><rect x="184" y="40" width="24" height="100" rx="5" fill="#13245A"/>
+    <circle cx="40" cy="30" r="8" fill="#F4B915"/><rect x="56" y="25" width="70" height="10" rx="5" fill="#EFEDF7"/></g>
+  <!-- flask -->
+  <g transform="translate(110 40)"><path d="M40 0h40M48 0v58L8 136a14 14 0 0 0 12 20h80a14 14 0 0 0 12-20L72 58V0" fill="#fff" stroke="#52017F" stroke-width="6" stroke-linejoin="round"/>
+    <path d="M22 110h76l14 26a8 8 0 0 1-7 12H15a8 8 0 0 1-7-12z" fill="#8B5CF6"/><circle cx="50" cy="126" r="6" fill="#fff"/><circle cx="70" cy="118" r="4" fill="#fff"/></g>
+  <!-- magnifier -->
+  <g transform="translate(400 260)"><circle r="46" fill="#fff" stroke="#13245A" stroke-width="10"/><path d="M34 34l42 42" stroke="#13245A" stroke-width="14" stroke-linecap="round"/><path d="M-20 6l12-14 12 8 16-20" stroke="#D61F8C" stroke-width="6" fill="none" stroke-linecap="round" stroke-linejoin="round"/></g>
+</svg>

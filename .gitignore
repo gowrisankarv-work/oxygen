@@ -1,0 +1,12 @@
+node_modules/
+dist/
+dist-e2e/
+dist-stats/
+.cache/
+test-results/
+playwright-report/
+.env
+.env.local
+.env.*.local
+*.log
+.DS_Store

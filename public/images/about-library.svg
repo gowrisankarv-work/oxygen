@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400" role="img" aria-labelledby="t">
+  <title id="t">A researcher reading in a library</title>
+  <rect width="400" height="400" fill="#13245A"/>
+  <g opacity=".9">
+    <rect x="0" y="90" width="400" height="12" fill="#2F5BD3"/><rect x="0" y="200" width="400" height="12" fill="#2F5BD3"/>
+    <g fill="#8B5CF6"><rect x="20" y="40" width="18" height="50" rx="3"/><rect x="100" y="48" width="22" height="42" rx="3"/><rect x="220" y="36" width="16" height="54" rx="3"/><rect x="320" y="44" width="20" height="46" rx="3"/></g>
+    <g fill="#F4B915"><rect x="42" y="50" width="16" height="40" rx="3"/><rect x="160" y="40" width="20" height="50" rx="3"/><rect x="290" y="52" width="16" height="38" rx="3"/></g>
+    <g fill="#D61F8C"><rect x="62" y="44" width="22" height="46" rx="3"/><rect x="186" y="50" width="18" height="40" rx="3"/><rect x="346" y="38" width="22" height="52" rx="3"/></g>
+    <g fill="#C9B8F5"><rect x="30" y="150" width="20" height="50" rx="3"/><rect x="56" y="160" width="18" height="40" rx="3"/><rect x="250" y="146" width="22" height="54" rx="3"/><rect x="300" y="156" width="18" height="44" rx="3"/><rect x="330" y="150" width="20" height="50" rx="3"/></g>
+  </g>
+  <circle cx="200" cy="270" r="110" fill="#52017F" opacity=".6"/>
+  <path d="M110 400c0-74 36-118 90-118s90 44 90 118z" fill="#F4B915"/>
+  <circle cx="200" cy="230" r="44" fill="#9C6B4E"/>
+  <path d="M154 232c-4-42 20-66 48-66 30 0 50 22 46 60-10-18-28-28-50-26-18 2-34 12-44 32z" fill="#120E20"/>
+  <rect x="166" y="230" width="68" height="14" rx="7" fill="none" stroke="#2A0A52" stroke-width="4"/>
+  <path d="M120 330l80 20 80-20v58l-80 12-80-12z" fill="#fff"/><path d="M200 350v50" stroke="#C9B8F5" stroke-width="4"/>
+  <path d="M136 346l48 10M136 362l48 10M216 356l48-10M216 372l48-10" stroke="#C9B8F5" stroke-width="4" stroke-linecap="round"/>
+</svg>
